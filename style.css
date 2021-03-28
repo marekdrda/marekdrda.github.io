@@ -1,0 +1,66 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+h1 {
+    font-size: 3rem;
+}
+/*header*/
+
+.navigation-top {
+    height: 8rem;
+    width: 100%;
+    background-color: hsl(203, 79%, 34%);
+    color:hsl(34, 29%, 85%);
+    position: fixed;
+    z-index: 1;
+    opacity: 1;
+}    
+.navigation-top a {
+    color:hsl(34, 29%, 85%);
+}
+.menu-top {
+    display: inline-block;
+    float: right;
+    margin: 3rem 1rem;
+    font-size: 1.5rem;
+}
+
+/*intro*/
+.intro {
+    text-align: center;
+    position: relative;
+    top: 8rem;
+    background-color: hsla(203, 100%, 69%, 0.2);
+}
+#intro-photo {
+    height: 30rem;
+    width: 30rem;
+    background-image: url("media/Photo_Marek.png");
+    border-radius: 50%;
+    margin: 2rem auto;
+
+
+}
+#intro-welcome {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2rem;
+}
+#intro-text {
+    width: 45%;
+    margin: 0rem auto;
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+}
+/*footer*/
+.footer {
+    text-align: center;
+    height: 8rem;
+    background-color: hsl(203, 79%, 34%);
+    color: #E3D9CC;
+    font-size: 1.2rem;
+    position: relative;
+    top: 8rem;
+}
