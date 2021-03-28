@@ -37,7 +37,7 @@ h1 {
 #intro-photo {
     height: 30rem;
     width: 30rem;
-    background-image: url("media/Photo_Marek.png");
+    background-image: url("./Photo_Marek.png");
     border-radius: 50%;
     margin: 2rem auto;
 
