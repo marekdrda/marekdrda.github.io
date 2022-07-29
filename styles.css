@@ -1,0 +1,147 @@
+:root {
+    --first-color: hsl(167, 100%, 99%);
+    --second-color: #b4f1f1;
+    --third-color: #2d767f;
+    --fourth-color: hsl(180, 53%, 20%);
+    --text-color: black; 
+}
+
+* {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--first-color);
+}
+
+header {
+    width: 100%;
+    height: 10rem;
+    background-color: var(--third-color);
+    height: 10rem;
+    position: fixed;
+    z-index: 3;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    height: 10rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul {
+    height: 10rem;
+    float: right;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 3rem;
+    margin: 0;
+}
+
+ul li {
+    font-size: 3rem;
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+li a {
+    text-decoration: none;
+    color: var(--first-color);
+}
+
+h1 {
+    display: none;
+}
+
+#welcome-section {
+        position: relative; 
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+#welcome-section::before {    
+        content: "";
+        background-image: url("./sources/web-gace9aa3d7_1920.jpg");
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.1;
+}
+
+    #welcome-container {
+        position: relative; 
+    }
+
+    #welcome-container p {
+        text-align: center;
+}
+
+#welcome-container p:first-of-type {
+    font-size: 5rem;
+    color: var(--fourth-color);
+    font-weight: 600;
+    font-family: sans-serif
+}
+
+#welcome-container p:last-of-type {
+    font-size: 3rem;
+    font-family: monospace;
+    font-weight: 400;
+    margin-top: -1rem;
+}
+
+#welcome-img {
+    width: 20%;
+    height: auto;
+    border-radius: 1rem;
+    z-index: 2;
+    position: absolute;
+    right: 10%;
+}
+
+@media only screen and (min-width: 400px) {
+ 
+}
+
+#projects {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#projects-container {
+    margin: 0 auto;
+    padding: 2rem;
+    width: 70%;
+    background-color: var(--second-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    flex-wrap: wrap;
+}
+
+.project-tile {
+    width: 30rem;
+    height: 30rem;
+    margin: 2rem;
+}
